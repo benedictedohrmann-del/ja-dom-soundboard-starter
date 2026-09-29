@@ -17,13 +17,24 @@ body {
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+
 }
+
 
 .sound-buttons {
     /* Skriv selv: brug CSS Flexbox til at centrere de fire knapper i denne container.
        Husk fra dag 4: du skal bruge display: flex, samt justify-content og align-items,
        for at centrere knapperne både vandret og lodret i forhold til hinanden. */
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
 
 }
 
